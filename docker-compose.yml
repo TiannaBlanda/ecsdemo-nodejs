@@ -1,4 +1,4 @@
-version: '3'
+version:#'3'
 services:
   ecsdemo-nodejs:
     image: brentley/ecsdemo-nodejs
@@ -10,3 +10,4 @@ services:
         awslogs-group: ecsdemo-nodejs
         awslogs-region: ${AWS_REGION}
         awslogs-stream-prefix: ecsdemo-nodejs
+ 
